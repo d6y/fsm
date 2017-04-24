@@ -35,7 +35,6 @@ lazy val fsm = crossProject.in(file("."))
   .settings(name := "fsm")
   .settings(buildSettings ++ commonSettings)
 
-
 lazy val fsmJVM = fsm.jvm
 lazy val fsmJS = fsm.js
 
